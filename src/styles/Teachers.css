@@ -1,0 +1,87 @@
+.teacher{
+    position: relative;
+    height: 58.125rem;
+    left: 18.25rem;
+    top: 5rem;
+    background: #FFFFFF;
+    border-left: 1px solid rgb(186, 184, 184);
+    /* box-shadow: 0px -10px 3px 1px red; */
+    /* box-shadow: -10px 0px 20px 10px rgb(186, 184, 184); */
+    padding: 4rem 4rem;
+    width: 71.75rem;
+    margin: 0rem 0rem 0rem 0rem;
+}
+.teacher .filterSearch{
+    position: relative;
+    width: 63.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.teacher .filterSearch input{
+    height: 3rem;
+    margin: 2rem 0;
+    width: 56.875rem;
+    padding: 10px;
+    font-size: 1.15rem;
+}
+.teacher .filterSearch .filter{
+    height: 3rem;
+    margin: 2rem 0;
+    width: 5.875rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+/* Dropdown Button */
+.teacher .filterSearch .filter .dropbtn {
+    font-size: 1.15rem;
+    width: 5.875rem;
+    border: none;
+    cursor: pointer;
+    height: 3rem;
+    background-color: none;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+  }
+.teacher .tableHeading{
+    background: rgba(0, 0, 0, 0.04);
+    height: 2.5rem;
+    padding: 0 1rem;
+    gap: 11.875rem;
+    width: 63.75rem;
+}
+.teacher .teacherTable .tableRow {
+    height: 3.0625rem;
+    border-bottom: 1px solid #C4C4C4;
+    border: 1px solid saddlebrown;
+}
+ .tableData{
+    width: 15.9375rem;
+    text-align: left;
+}
+/* Pagination links */
+.teacher .pagination {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

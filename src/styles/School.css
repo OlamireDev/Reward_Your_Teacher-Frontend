@@ -1,0 +1,105 @@
+.school{ 
+    background: #FFF;
+    padding: 5%;
+}
+.schoolList{
+    min-height: 20vh;
+}
+.school .filterSearch{
+    /* position: relative; */
+    width: 63.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.school .filterSearch input{
+    height: 3rem;
+    margin: 2rem 0;
+    width: 56.875rem;
+    padding: 10px;
+    font-size: 1.15rem;
+}
+.school .filterSearch .filter{
+    height: 3rem;
+    margin: 2rem 0;
+    width: 5.875rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+/* Dropdown Button */
+.school .filterSearch .filter .dropbtn {
+    font-size: 1.15rem;
+    width: 5.875rem;
+    border: none;
+    cursor: pointer;
+    height: 3rem;
+    background-color: none;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+  }
+.school .schoolTable {
+    border: 1px solid greenyellow;    
+}
+.school .tableHeading, .school .tableRow {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 11.875rem;
+    width: 63.75rem;
+}
+.school .tableHeading{
+    background: rgba(0, 0, 0, 0.04);
+    height: 2.5rem;
+}
+.school .tableRow {
+    border-bottom: 1px solid #C4C4C4;
+    height: 3.0625rem;
+}
+/*table row text*/
+.school .tableRow .school_link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 17px;
+    color: #03435F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* Pagination links */
+.school .pagination {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+
+

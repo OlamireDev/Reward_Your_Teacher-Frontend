@@ -1,0 +1,88 @@
+.closeSideBar {
+    display: none;
+}
+
+.openSideBar {
+    background-color: #fff;
+    padding: 30px 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+    height: calc(100% - 80px);
+    width: 300px;
+
+}
+
+.notificationList {
+    padding-left: 88px;
+}
+
+
+.notification_header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #03435F;
+}
+
+.notification_head {
+    height: 18px;
+}
+
+.horiz_line {
+    width: 825px;
+    height: 0px;
+    border: 1px solid #D9D9D9;
+}
+
+.notification_moneySent {
+    width: 720px;
+    height: 88px;
+    display: flex;
+    gap: 430px;
+    margin-top: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    color: #21334F;
+}
+
+.money_header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.money_paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #21334F;
+}
+
+.money_claimed {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #21334F;
+}
+
+.notification_info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
